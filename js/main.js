@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('#clock').countdown("2019/05/08", function(event) {
+    $('#clock').countdown("2019/12/12", function(event) {
       var totalHours = event.offset.totalDays * 24 + event.offset.hours;
        $('.hours').html(totalHours);
        $('.minutes').html(event.strftime('%M'));
